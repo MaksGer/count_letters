@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Подсчет гласных в введеной строке</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Давай посчитаем гласные в твоем предложении</h1>
+    <div>
+        <div>Введи своё предложение/текст:</div>
+        <div><textarea id="vowels_field" type="text" rows="4" cols="35" placeholder="Текст должен быть на русском языке"></textarea></div> <br>
+    </div>
+    <input type="button" value="Сколько гласных во введенной строке?" onclick="vowels_amount();" />
+    <br>
+    <div>Результат:</div><textarea id="result_field" type="text" rows="1" cols="2"></textarea>
+</div>
+</body>
+</html>
